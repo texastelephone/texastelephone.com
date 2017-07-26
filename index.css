@@ -175,3 +175,10 @@ li div {
 .tile {
 	background-color: #f4f4ee;
 }
+
+.is-ancestor {
+	max-width: 1000px !important;
+	margin: 0px auto !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
