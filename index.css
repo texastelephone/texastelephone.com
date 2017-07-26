@@ -1,0 +1,177 @@
+.navbar-brand a {
+	color: #fff;
+}
+.navbar-brand .navbar-item:hover {
+	background-color: #505051 !important;
+}
+
+.navbar-brand img {
+	margin-right: 1em
+}
+
+.navbar-burger {
+	background-color: #fff;
+}
+
+a.are-here {
+	color: #00b8f1 !important;
+}
+
+#slides {
+    position: relative;
+    height: 400px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 2;
+
+    -webkit-transition: opacity 2s;
+    -moz-transition: opacity 2s;
+    -o-transition: opacity 2s;
+    transition: opacity 2s;
+}
+
+.slide2 {
+	background-image: url("slide1.jpg");
+	background-size: cover;
+	background-repeat:   no-repeat;
+	background-position: center center;
+	color: #fff;
+}
+
+.slide0 {
+	background-image: url("ttdtcircuit.jpg");
+	background-size: cover;
+	background-repeat:   no-repeat;
+	background-position: center center;
+	color: #fff;
+}
+
+.slide1 {
+	background-image: url("digium.jpg");
+	background-size: cover;
+	background-repeat:   no-repeat;
+	background-position: center center;
+	color: #fff;
+}
+
+.slide_showing {
+    opacity: 1;
+    z-index: 2;
+}
+
+a.navbar-item img {
+	height: 2em;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: #fff;
+	text-align: center;
+	padding: 5px;
+	border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+	position: absolute;
+	white-space:nowrap;
+	top: 30%;
+	z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+a.navbar-link:hover .fa-stack-1x,
+a.navbar-item:hover .fa-stack-1x,
+div.navbar-end a.navbar-item:hover > span.is-hidden-touch,
+div.navbar a.navbar-item:hover > span.is-hidden-touch {
+	color: #00b8f1 !important;
+}
+
+a.are-here:hover .fa-stack-1x {
+	color: #f6f6f6 !important;
+}
+
+div#content {
+	padding-left: 1em;
+	background-color: white;
+}
+
+.tile a,
+.link {
+	color: #000;
+}
+
+.tile a .fa-stack-1x 
+.link {
+	color: #00b8f1;
+}
+
+.tile a:hover,
+.prevslide:hover,
+.nextslide:hover,
+.dot:hover {
+	color: #00b8f1 !important;
+}
+
+.tile a:hover .fa-stack-1x {
+	color: #fff;
+}
+
+div.test {
+	top: -1em;
+}
+
+.nosubtitle {
+	margin-bottom: .25em !important;
+}
+
+article h1 {
+	font-weight: bold;
+}
+
+@media all and (max-width: 768px) {
+	p, h1, a, div { text-align: center}
+}
+
+li div {
+	background: rgba(65,65,65,.75);
+	text-color: #f0f0f0;
+	position: absolute;
+	bottom: 1em;
+	left: 2%;
+	right: 2%;
+	padding: 10px;
+}
+
+.prevslide,
+.nextslide,
+.dot {
+	display: inline;
+	position: relative;
+	z-index: 3;
+	color: #4a4a4a !important;
+}
+
+.dot_current a {
+	color: white !important;
+}
+
+.prevslide:hover {
+	color:red !important;
+}
+
+.tile {
+	background-color: #f4f4ee;
+}
