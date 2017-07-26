@@ -40,13 +40,13 @@ a.are-here {
     transition: opacity 2s;
 }
 
-.slide2 {
+/*.slide2 {
 	background-image: url("slide1.jpg");
 	background-size: cover;
 	background-repeat:   no-repeat;
 	background-position: center center;
 	color: #fff;
-}
+}*/
 
 .slide0 {
 	background-image: url("ttdtcircuit.jpg");
